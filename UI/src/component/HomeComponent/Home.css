@@ -1,0 +1,131 @@
+/* Main Banner */
+.main-banner {
+  background: #232c37;
+  padding: 30px 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.main-banner h2 {
+  font-size: 36px;
+  color: #39b7c6;
+  margin-bottom: 20px;
+}
+
+.main-white-button a {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.main-white-button a:hover {
+  background-color: #0056b3;
+}
+
+/* Section Heading */
+.section-heading {
+  margin: 60px 0 30px;
+  text-align: center;
+}
+
+.section-heading h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Featured Events */
+.featured-events {
+  background-color: #ffffff;
+  padding-bottom: 80px;
+}
+
+.event-item {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
+  transition: transform 0.3s ease;
+}
+
+.event-item:hover {
+  transform: translateY(-5px);
+}
+
+.event-item .thumb {
+  position: relative;
+}
+
+.event-item .thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+.event-item .price {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.down-content {
+  padding: 20px;
+}
+
+.down-content .category {
+  display: inline-block;
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.down-content h4 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin: 5px 0 10px;
+}
+
+.down-content p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.main-dark-button a {
+  display: inline-block;
+  background-color: #304152;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.main-dark-button a:hover {
+  background-color: #0056b3;
+}
+
+/* Footer at Bottom of Home */
+footer {
+  background-color: #f1f1f1;
+  padding: 20px 0;
+  text-align: center;
+  color: #888;
+  font-size: 13px;
+  margin-top: 60px;
+  border-top: 1px solid #ddd;
+}

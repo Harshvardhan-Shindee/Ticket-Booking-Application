@@ -1,0 +1,144 @@
+/* Container */
+.my-events-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.my-events-container h1 {
+  font-size: 32px;
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+/* Section */
+.events-section {
+  margin-bottom: 60px;
+}
+
+.events-section h2 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  border-left: 4px solid #007bff;
+  padding-left: 10px;
+}
+
+/* Grid Layout */
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* Card */
+.event-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image */
+.event-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Info */
+.event-info {
+  background: #dededf;
+  padding: 20px;
+}
+
+.event-info h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.event-date,
+.event-time,
+.event-location,
+.event-capacity,
+.event-organizer {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/* Actions */
+.event-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+/* No Events Text */
+.no-events {
+  font-size: 15px;
+  color: #888;
+  padding: 10px;
+  border: 1px dashed #ccc;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Loader & Error */
+.loading,
+.error {
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  color: #555;
+}
+
+/* Responsive Footer Push */
+@media (max-width: 768px) {
+  .my-events-container {
+    padding: 20px 10px;
+  }
+
+  .event-info {
+    padding: 15px;
+  }
+
+  .event-image img {
+    height: 180px;
+  }
+}

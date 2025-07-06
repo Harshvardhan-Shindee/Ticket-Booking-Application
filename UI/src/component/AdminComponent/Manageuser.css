@@ -1,0 +1,96 @@
+.manage-users-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f6f9ff;
+  min-height: 100vh;
+  border-radius: 10px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: #2b3a55;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.users-table th,
+.users-table td {
+  padding: 14px 20px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-size: 15px;
+  position: relative;
+}
+
+.users-table th {
+  background-color: #e9f0ff;
+  color: #333;
+  font-weight: 600;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Consistent icon button size */
+.view-btn,
+.edit-btn,
+.delete-btn {
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  border: none;
+  background-color: e25252;
+  cursor: pointer;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effects */
+.view-btn:hover {
+  color: #007bff;
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.edit-btn:hover {
+  color: #ffc107;
+  background-color: rgba(255, 193, 7, 0.1);
+}
+
+.delete-btn:hover {
+  color: #dc3545;
+  background-color: rgba(220, 53, 69, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .users-table th, .users-table td {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .view-btn,
+  .edit-btn,
+  .delete-btn {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+}

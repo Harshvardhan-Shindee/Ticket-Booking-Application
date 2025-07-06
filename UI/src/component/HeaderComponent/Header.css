@@ -1,0 +1,27 @@
+.header-container {
+  width: 100%;
+  background-color: #f0f0f0;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.scrolling-image {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-right 15s linear infinite;
+}
+
+.scrolling-image img {
+  height: 60px;
+  margin-left: 100%;
+}
+
+/* Animation keyframes */
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

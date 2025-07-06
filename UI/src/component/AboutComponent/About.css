@@ -1,0 +1,95 @@
+/* Main Banner */
+.about-main-banner {
+  background: #20272a;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  position: relative;
+}
+
+.about-main-banner h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-main-banner .main-white-button a {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #fff;
+  color: #007bff;
+  border-radius: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.about-main-banner .main-white-button a:hover {
+  background-color: #e2e6ea;
+  color: #0056b3;
+}
+
+/* About Content Section */
+.about-content {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.about-text {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-text h4 {
+  font-size: 26px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+/* Discover Button */
+.main-button a {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.main-button a:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #bbb;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-text {
+    padding-left: 0;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
